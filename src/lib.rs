@@ -110,7 +110,7 @@ impl Transport {
 /// provides a safe interface for dealing with initializing the sockets, sending
 /// and receiving messages.
 pub struct Socket {
-    socket: c_int
+    pub socket: c_int
 }
 
 #[derive(Clone, Copy)]
